@@ -116,6 +116,12 @@ def main():
 
             # Refresh the page to display the updated chat history
             st.experimental_rerun()
+            # st.query_params()
+            # st.experimental_set_query_params(rerun=1)
+
+            # query_params = st.experimental_get_query_params()
+            # query_params["rerun"] = [str(int(query_params.get("rerun", [0])[0]) + 1)]
+            # st.experimental_set_query_params(**query_params)
 
 if __name__ == "__main__":
     main()

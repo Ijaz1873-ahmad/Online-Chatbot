@@ -1,5 +1,5 @@
 git+https://github.com/LucknowAI/Lucknow-LLM
-streamlit 
+streamlit==1.30.0
 sentence-transformers 
 numpy 
 pypdf2
