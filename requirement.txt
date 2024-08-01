@@ -1,0 +1,7 @@
+git+https://github.com/LucknowAI/Lucknow-LLM
+streamlit 
+sentence-transformers 
+numpy 
+pypdf2
+google-generativeai
+chromadb
